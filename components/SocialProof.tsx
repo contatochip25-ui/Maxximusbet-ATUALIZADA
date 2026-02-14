@@ -27,12 +27,12 @@ const SocialProof: React.FC = () => {
         {/* Grid Layout - Adjusted for Mobile Dimensions */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
           {images.map((src, index) => (
-            <div key={index} className="group relative w-full max-w-[340px] md:max-w-none mx-auto md:aspect-[3/4] overflow-hidden rounded-2xl border border-gray-800 hover:border-premium-gold transition-all duration-500 shadow-2xl">
+            <div key={index} className="group relative w-full max-w-[340px] md:max-w-none mx-auto overflow-hidden rounded-2xl border border-gray-800 hover:border-premium-gold transition-all duration-500 shadow-2xl">
               <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-60 z-10 pointer-events-none"></div>
               <img 
                 src={src} 
                 alt={`Bilhete Premiado ${index + 1}`} 
-                className="w-full h-auto md:h-full md:object-cover transition-transform duration-700 group-hover:scale-105"
+                className="w-full h-auto transition-transform duration-700 group-hover:scale-105"
               />
               <div className="absolute bottom-4 left-4 z-20">
                 <span className="bg-premium-green text-black text-xs font-bold px-3 py-1.5 uppercase rounded-sm shadow-lg shadow-black/50 tracking-wide">
