@@ -49,12 +49,17 @@ const SocialProof: React.FC = () => {
             Você pode ser o próximo.
           </h3>
           
-          <button className="w-full max-w-2xl relative group overflow-hidden bg-premium-gold hover:bg-white transition-all duration-300 py-5 md:py-6 px-4 md:px-12 rounded-lg shadow-glow-gold">
+          <a 
+            href="https://chat.whatsapp.com/BzsUwu8bOsEDlrPISjVuIY?mode=gi_t"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-full max-w-2xl relative group overflow-hidden bg-premium-gold hover:bg-white transition-all duration-300 py-5 md:py-6 px-4 md:px-12 rounded-lg shadow-glow-gold block"
+          >
             <span className="relative flex items-center justify-center gap-2 md:gap-3 text-black font-black text-lg md:text-3xl uppercase tracking-wider font-display">
               ENTRAR NO GRUPO VIP AGORA
               <ArrowRight className="w-6 h-6 md:w-8 md:h-8 stroke-[3px]" />
             </span>
-          </button>
+          </a>
           
           <p className="text-gray-500 text-xs md:text-sm">
             Ao clicar, você será redirecionado para o nosso grupo exclusivo.

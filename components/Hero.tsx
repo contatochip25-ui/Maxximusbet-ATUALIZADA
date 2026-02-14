@@ -38,13 +38,18 @@ const Hero: React.FC = () => {
 
         {/* CTA Button */}
         <div className="w-full max-w-md mt-8">
-          <button className="w-full relative group overflow-hidden bg-premium-green hover:bg-white transition-all duration-300 py-6 px-8 rounded-lg shadow-glow-green">
+          <a 
+            href="https://chat.whatsapp.com/BzsUwu8bOsEDlrPISjVuIY?mode=gi_t"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-full relative group overflow-hidden bg-premium-green hover:bg-white transition-all duration-300 py-6 px-8 rounded-lg shadow-glow-green block"
+          >
             <div className="absolute inset-0 bg-white/20 translate-y-full group-hover:translate-y-0 transition-transform duration-300 skew-y-12"></div>
             <span className="relative flex items-center justify-center gap-3 text-black font-black text-xl md:text-2xl uppercase tracking-wider font-display">
               QUERO ENTRAR AGORA
               <ArrowRight className="w-8 h-8 stroke-[3px]" />
             </span>
-          </button>
+          </a>
           <p className="text-center text-gray-500 text-xs mt-3 uppercase tracking-widest">
             Vagas Limitadas • Acesso Imediato
           </p>

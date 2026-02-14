@@ -35,7 +35,10 @@ const CtaBlock: React.FC<CtaBlockProps> = ({
       </div>
 
       {/* Button */}
-      <button 
+      <a 
+        href="https://chat.whatsapp.com/BzsUwu8bOsEDlrPISjVuIY?mode=gi_t"
+        target="_blank"
+        rel="noopener noreferrer"
         className={`
           group relative w-full py-5 px-6 rounded-none skew-x-[-10deg] border border-premium-green
           bg-premium-green text-black text-xl font-bold tracking-wider uppercase font-display
@@ -47,7 +50,7 @@ const CtaBlock: React.FC<CtaBlockProps> = ({
           {ctaText}
           <ArrowRight className="w-6 h-6 stroke-[3px]" />
         </span>
-      </button>
+      </a>
       
       <p className="text-center text-[10px] uppercase tracking-widest text-gray-500 font-medium">
         🔒 Acesso Seguro • Pagamento Instantâneo
