@@ -42,7 +42,7 @@ const Hero: React.FC = () => {
             href="https://chat.whatsapp.com/BzsUwu8bOsEDlrPISjVuIY?mode=gi_t"
             target="_blank"
             rel="noopener noreferrer"
-            className="w-full relative group overflow-hidden bg-premium-green hover:bg-white transition-all duration-300 py-6 px-8 rounded-lg shadow-glow-green block"
+            className="w-full relative group overflow-hidden bg-premium-green hover:bg-white transition-all duration-300 py-6 px-8 rounded-lg shadow-glow-green block animate-button-pulse"
           >
             <div className="absolute inset-0 bg-white/20 translate-y-full group-hover:translate-y-0 transition-transform duration-300 skew-y-12"></div>
             <span className="relative flex items-center justify-center gap-3 text-black font-black text-xl md:text-2xl uppercase tracking-wider font-display">
@@ -60,7 +60,7 @@ const Hero: React.FC = () => {
           <div className="flex items-center justify-center gap-3">
             <Users className="text-premium-gold w-6 h-6" />
             <div className="text-left">
-              <span className="block text-white font-bold text-lg">+1.000</span>
+              <span className="block text-white font-bold text-lg">+200.000</span>
               <span className="text-gray-500 text-xs uppercase tracking-wider">Membros Ativos</span>
             </div>
           </div>

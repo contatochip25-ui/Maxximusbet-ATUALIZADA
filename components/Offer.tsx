@@ -42,7 +42,7 @@ const Offer: React.FC = () => {
                         </div>
                         <div className="w-[1px] h-8 bg-gray-800"></div>
                         <div className="text-center">
-                            <span className="block text-3xl font-bold text-premium-green">+5k</span>
+                            <span className="block text-3xl font-bold text-premium-green">+200k</span>
                             <span className="text-xs text-gray-500 uppercase tracking-widest">Membros</span>
                         </div>
                          <div className="w-[1px] h-8 bg-gray-800"></div>

@@ -44,6 +44,7 @@ const CtaBlock: React.FC<CtaBlockProps> = ({
           bg-premium-green text-black text-xl font-bold tracking-wider uppercase font-display
           flex items-center justify-center gap-2 transition-all duration-300
           hover:bg-premium-greenHover hover:shadow-[0_0_20px_rgba(204,255,0,0.4)]
+          animate-button-pulse
         `}
       >
         <span className="skew-x-[10deg] flex items-center gap-2">

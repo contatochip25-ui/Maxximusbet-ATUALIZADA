@@ -53,7 +53,7 @@ const SocialProof: React.FC = () => {
             href="https://chat.whatsapp.com/BzsUwu8bOsEDlrPISjVuIY?mode=gi_t"
             target="_blank"
             rel="noopener noreferrer"
-            className="w-full max-w-2xl relative group overflow-hidden bg-premium-gold hover:bg-white transition-all duration-300 py-5 md:py-6 px-4 md:px-12 rounded-lg shadow-glow-gold block"
+            className="w-full max-w-2xl relative group overflow-hidden bg-premium-green hover:bg-white transition-all duration-300 py-5 md:py-6 px-4 md:px-12 rounded-lg shadow-glow-green block animate-button-pulse"
           >
             <span className="relative flex items-center justify-center gap-2 md:gap-3 text-black font-black text-lg md:text-3xl uppercase tracking-wider font-display">
               ENTRAR NO GRUPO VIP AGORA
