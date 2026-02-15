@@ -7,8 +7,8 @@ function App() {
   return (
     <main className="w-full bg-black min-h-screen font-sans selection:bg-premium-gold selection:text-black">
       <Hero />
-      <HowItWorks />
       <SocialProof />
+      <HowItWorks />
       
       {/* Footer Minimalista */}
       <footer className="py-8 bg-black border-t border-gray-900 text-center">
